@@ -1,5 +1,6 @@
 # OpenGL_Assignments
 Assignments for 计算机图形学@PKU 2021-2022
+
 Written by Percy Joonwoo Jang 张晙优
 
 # Assignment 1: Hand (模型的变换)
