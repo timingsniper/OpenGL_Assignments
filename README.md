@@ -2,7 +2,7 @@
 Assignments for 计算机图形学@PKU 2021-2022
 Written by Percy Joonwoo Jang 张晙优
 
-# Assignment 1, 模型的变换
+# Assignment 1: Hand (模型的变换)
 作业要求
 1.    利用示例程序或自行编程实现手的运动，并绘制运动结果。
 2.    可以通过键盘   /   鼠标输入交互地修改或变换手势。
