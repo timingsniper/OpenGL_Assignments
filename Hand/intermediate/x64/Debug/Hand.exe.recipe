@@ -2,7 +2,7 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
-      <FullPath>D:\Hand\bin\x64\Debug\Hand.exe</FullPath>
+      <FullPath>D:\OpenGL_Assignments\Hand\bin\x64\Debug\Hand.exe</FullPath>
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles />

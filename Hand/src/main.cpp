@@ -297,7 +297,7 @@ int main(int argc, char *argv[]) {
         // * rotation axis = (0, 0, 1)
 
         //Gesture 1. Hello World! Waving hand
-        //modifier["metacarpals"] = glm::rotate(glm::mat4(), thumb_angle - 0.5f, glm::fvec3(0.0, 1.0, 0.0));
+        modifier["metacarpals"] = glm::rotate(glm::mat4(), thumb_angle - 0.5f, glm::fvec3(0.0, 1.0, 0.0));
         
         //Gesture 2. "Rabbit"
 		/*modifier["index_distal_phalange"] = glm::rotate(glm::mat4(), thumb_angle, glm::fvec3(0.0, 0.0, 1.0));
@@ -305,20 +305,20 @@ int main(int argc, char *argv[]) {
 		modifier["index_intermediate_phalange"] = glm::rotate(glm::mat4(), thumb_angle, glm::fvec3(0.0, 0.0, 1.0));
 		modifier["middle_intermediate_phalange"] = glm::rotate(glm::mat4(), thumb_angle, glm::fvec3(0.0, 0.0, 1.0));
 
-		modifier["thumb_proximal_phalange"] = glm::rotate(glm::mat4(), one, glm::fvec3(0.0, 0.0, 1.0));
-		modifier["thumb_intermediate_phalange"] = glm::rotate(glm::mat4(), one, glm::fvec3(0.0, 0.0, 1.0));
-		modifier["thumb_distal_phalange"] = glm::rotate(glm::mat4(), one, glm::fvec3(0.0, 0.0, 1.0));
-		modifier["thumb_fingertip"] = glm::rotate(glm::mat4(), one, glm::fvec3(0.0, 0.0, 1.0));
+		modifier["thumb_proximal_phalange"] = glm::rotate(glm::mat4(), thumb_angle, glm::fvec3(0.0, 0.0, 1.0));
+		modifier["thumb_intermediate_phalange"] = glm::rotate(glm::mat4(), thumb_angle, glm::fvec3(0.0, 0.0, 1.0));
+		modifier["thumb_distal_phalange"] = glm::rotate(glm::mat4(), thumb_angle, glm::fvec3(0.0, 0.0, 1.0));
+		modifier["thumb_fingertip"] = glm::rotate(glm::mat4(), thumb_angle, glm::fvec3(0.0, 0.0, 1.0));
 
-		modifier["ring_proximal_phalange"] = glm::rotate(glm::mat4(), one, glm::fvec3(0.0, 0.0, 1.0));
-		modifier["ring_intermediate_phalange"] = glm::rotate(glm::mat4(), one, glm::fvec3(0.0, 0.0, 1.0));
-		modifier["ring_distal_phalange"] = glm::rotate(glm::mat4(), one, glm::fvec3(0.0, 0.0, 1.0));
-		modifier["ring_fingertip"] = glm::rotate(glm::mat4(), one, glm::fvec3(0.0, 0.0, 1.0));
+		modifier["ring_proximal_phalange"] = glm::rotate(glm::mat4(), thumb_angle, glm::fvec3(0.0, 0.0, 1.0));
+		modifier["ring_intermediate_phalange"] = glm::rotate(glm::mat4(), thumb_angle, glm::fvec3(0.0, 0.0, 1.0));
+		modifier["ring_distal_phalange"] = glm::rotate(glm::mat4(), thumb_angle, glm::fvec3(0.0, 0.0, 1.0));
+		modifier["ring_fingertip"] = glm::rotate(glm::mat4(), thumb_angle, glm::fvec3(0.0, 0.0, 1.0));
 
-		modifier["pinky_proximal_phalange"] = glm::rotate(glm::mat4(), one, glm::fvec3(0.0, 0.0, 1.0));
-		modifier["pinky_intermediate_phalange"] = glm::rotate(glm::mat4(), one, glm::fvec3(0.0, 0.0, 1.0));
-		modifier["pinky_distal_phalange"] = glm::rotate(glm::mat4(), one, glm::fvec3(0.0, 0.0, 1.0));
-		modifier["pinky_fingertip"] = glm::rotate(glm::mat4(), one, glm::fvec3(0.0, 0.0, 1.0));*/
+		modifier["pinky_proximal_phalange"] = glm::rotate(glm::mat4(), thumb_angle, glm::fvec3(0.0, 0.0, 1.0));
+		modifier["pinky_intermediate_phalange"] = glm::rotate(glm::mat4(), thumb_angle, glm::fvec3(0.0, 0.0, 1.0));
+		modifier["pinky_distal_phalange"] = glm::rotate(glm::mat4(), thumb_angle, glm::fvec3(0.0, 0.0, 1.0));
+		modifier["pinky_fingertip"] = glm::rotate(glm::mat4(), thumb_angle, glm::fvec3(0.0, 0.0, 1.0));*/
 
 		//Gesture 3. Fist and back
 		/*modifier["thumb_proximal_phalange"] = glm::rotate(glm::mat4(), thumb_angle, glm::fvec3(0.0, 0.0, 1.0));
@@ -349,20 +349,20 @@ int main(int argc, char *argv[]) {
 		//Gesture 4. 666
 		/*modifier["metacarpals"] = glm::rotate(glm::mat4(), thumb_angle - 0.5f, glm::fvec3(0.0, 1.0, 0.0));
 	
-		modifier["index_proximal_phalange"] = glm::rotate(glm::mat4(), one, glm::fvec3(0.0, 0.0, 1.0));
-		modifier["index_distal_phalange"] = glm::rotate(glm::mat4(), one, glm::fvec3(0.0, 0.0, 1.0));
-		modifier["index_intermediate_phalange"] = glm::rotate(glm::mat4(), one, glm::fvec3(0.0, 0.0, 1.0));
-		modifier["index_fingertip"] = glm::rotate(glm::mat4(), one, glm::fvec3(0.0, 0.0, 1.0));
+		modifier["index_proximal_phalange"] = glm::rotate(glm::mat4(), thumb_angle, glm::fvec3(0.0, 0.0, 1.0));
+		modifier["index_distal_phalange"] = glm::rotate(glm::mat4(), thumb_angle, glm::fvec3(0.0, 0.0, 1.0));
+		modifier["index_intermediate_phalange"] = glm::rotate(glm::mat4(), thumb_angle, glm::fvec3(0.0, 0.0, 1.0));
+		modifier["index_fingertip"] = glm::rotate(glm::mat4(), thumb_angle, glm::fvec3(0.0, 0.0, 1.0));
 
-		modifier["middle_proximal_phalange"] = glm::rotate(glm::mat4(), one, glm::fvec3(0.0, 0.0, 1.0));
-		modifier["middle_distal_phalange"] = glm::rotate(glm::mat4(), one, glm::fvec3(0.0, 0.0, 1.0));
-		modifier["middle_intermediate_phalange"] = glm::rotate(glm::mat4(), one, glm::fvec3(0.0, 0.0, 1.0));
-		modifier["middle_fingertip"] = glm::rotate(glm::mat4(), one, glm::fvec3(0.0, 0.0, 1.0));
+		modifier["middle_proximal_phalange"] = glm::rotate(glm::mat4(), thumb_angle, glm::fvec3(0.0, 0.0, 1.0));
+		modifier["middle_distal_phalange"] = glm::rotate(glm::mat4(), thumb_angle, glm::fvec3(0.0, 0.0, 1.0));
+		modifier["middle_intermediate_phalange"] = glm::rotate(glm::mat4(), thumb_angle, glm::fvec3(0.0, 0.0, 1.0));
+		modifier["middle_fingertip"] = glm::rotate(glm::mat4(), thumb_angle, glm::fvec3(0.0, 0.0, 1.0));
 
-		modifier["ring_proximal_phalange"] = glm::rotate(glm::mat4(), one, glm::fvec3(0.0, 0.0, 1.0));
-		modifier["ring_intermediate_phalange"] = glm::rotate(glm::mat4(), one, glm::fvec3(0.0, 0.0, 1.0));
-		modifier["ring_distal_phalange"] = glm::rotate(glm::mat4(), one, glm::fvec3(0.0, 0.0, 1.0));
-		modifier["ring_fingertip"] = glm::rotate(glm::mat4(), one, glm::fvec3(0.0, 0.0, 1.0));*/
+		modifier["ring_proximal_phalange"] = glm::rotate(glm::mat4(), thumb_angle, glm::fvec3(0.0, 0.0, 1.0));
+		modifier["ring_intermediate_phalange"] = glm::rotate(glm::mat4(), thumb_angle, glm::fvec3(0.0, 0.0, 1.0));
+		modifier["ring_distal_phalange"] = glm::rotate(glm::mat4(), thumb_angle, glm::fvec3(0.0, 0.0, 1.0));
+		modifier["ring_fingertip"] = glm::rotate(glm::mat4(), thumb_angle, glm::fvec3(0.0, 0.0, 1.0));*/
 
 		//Gesture 5. OK
 		/*modifier["index_proximal_phalange"] = glm::rotate(glm::mat4(), thumb_angle, glm::fvec3(0.0, 0.0, 1.0));
@@ -373,30 +373,21 @@ int main(int argc, char *argv[]) {
 
 		//Gesture 6. Handgun
 		/*modifier["metacarpals"] = glm::rotate(glm::mat4(), ninety, glm::fvec3(0.0, 1.0, 0.0));
-		modifier["index_proximal_phalange"] = glm::rotate(glm::mat4(), thumb_angle, glm::fvec3(0.0, 0.0, 1.0));
-        modifier["index_intermediate_phalange"] = glm::rotate(glm::mat4(), thumb_angle, glm::fvec3(0.0, 0.0, 1.0));
-        modifier["index_distal_phalange"] = glm::rotate(glm::mat4(), thumb_angle, glm::fvec3(0.0, 0.0, 1.0));
-		modifier["index_distal_fingertip"] = glm::rotate(glm::mat4(), thumb_angle, glm::fvec3(0.0, 0.0, 1.0));
+	
+		modifier["middle_proximal_phalange"] = glm::rotate(glm::mat4(), thumb_angle, glm::fvec3(0.0, 0.0, 1.0));
+		modifier["middle_intermediate_phalange"] = glm::rotate(glm::mat4(), thumb_angle, glm::fvec3(0.0, 0.0, 1.0));
+		modifier["middle_distal_phalange"] = glm::rotate(glm::mat4(), thumb_angle, glm::fvec3(0.0, 0.0, 1.0));
+		modifier["middle_fingertip"] = glm::rotate(glm::mat4(), thumb_angle, glm::fvec3(0.0, 0.0, 1.0));
 
-        modifier["thumb_intermediate_phalange"] = glm::rotate(glm::mat4(), thumb_angle, glm::fvec3(0.0, 0.0, 1.0));
-        modifier["thumb_distal_phalange"] = glm::rotate(glm::mat4(), thumb_angle, glm::fvec3(0.0, 0.0, 1.0));
-		modifier["thumb_fingertip"] = glm::rotate(glm::mat4(), thumb_angle, glm::fvec3(0.0, 0.0, 1.0));
-		modifier["thumb_proximal_phalange"] = glm::rotate(glm::mat4(), thumb_angle, glm::fvec3(0.0, 0.0, 1.0));
+		modifier["ring_proximal_phalange"] = glm::rotate(glm::mat4(), thumb_angle, glm::fvec3(0.0, 0.0, 1.0));
+		modifier["ring_intermediate_phalange"] = glm::rotate(glm::mat4(), thumb_angle, glm::fvec3(0.0, 0.0, 1.0));
+		modifier["ring_distal_phalange"] = glm::rotate(glm::mat4(), thumb_angle, glm::fvec3(0.0, 0.0, 1.0));
+		modifier["ring_fingertip"] = glm::rotate(glm::mat4(), thumb_angle, glm::fvec3(0.0, 0.0, 1.0));
 
-		modifier["middle_proximal_phalange"] = glm::rotate(glm::mat4(), one, glm::fvec3(0.0, 0.0, 1.0));
-		modifier["middle_intermediate_phalange"] = glm::rotate(glm::mat4(), one, glm::fvec3(0.0, 0.0, 1.0));
-		modifier["middle_distal_phalange"] = glm::rotate(glm::mat4(), one, glm::fvec3(0.0, 0.0, 1.0));
-		modifier["middle_fingertip"] = glm::rotate(glm::mat4(), one, glm::fvec3(0.0, 0.0, 1.0));
-
-		modifier["ring_proximal_phalange"] = glm::rotate(glm::mat4(), one, glm::fvec3(0.0, 0.0, 1.0));
-		modifier["ring_intermediate_phalange"] = glm::rotate(glm::mat4(), one, glm::fvec3(0.0, 0.0, 1.0));
-		modifier["ring_distal_phalange"] = glm::rotate(glm::mat4(), one, glm::fvec3(0.0, 0.0, 1.0));
-		modifier["ring_fingertip"] = glm::rotate(glm::mat4(), one, glm::fvec3(0.0, 0.0, 1.0));
-
-		modifier["pinky_proximal_phalange"] = glm::rotate(glm::mat4(), one, glm::fvec3(0.0, 0.0, 1.0));
-		modifier["pinky_intermediate_phalange"] = glm::rotate(glm::mat4(), one, glm::fvec3(0.0, 0.0, 1.0));
-		modifier["pinky_distal_phalange"] = glm::rotate(glm::mat4(), one, glm::fvec3(0.0, 0.0, 1.0));
-		modifier["pinky_fingertip"] = glm::rotate(glm::mat4(), one, glm::fvec3(0.0, 0.0, 1.0));*/
+		modifier["pinky_proximal_phalange"] = glm::rotate(glm::mat4(), thumb_angle, glm::fvec3(0.0, 0.0, 1.0));
+		modifier["pinky_intermediate_phalange"] = glm::rotate(glm::mat4(), thumb_angle, glm::fvec3(0.0, 0.0, 1.0));
+		modifier["pinky_distal_phalange"] = glm::rotate(glm::mat4(), thumb_angle, glm::fvec3(0.0, 0.0, 1.0));
+		modifier["pinky_fingertip"] = glm::rotate(glm::mat4(), thumb_angle, glm::fvec3(0.0, 0.0, 1.0));*/
 
 		//Gesture 7. Shooting Railgun (Misaka Mikoto)
 		/*modifier["metacarpals"] = glm::rotate(glm::mat4(), ninety, glm::fvec3(0.0, 1.0, 0.0));
@@ -406,20 +397,20 @@ int main(int argc, char *argv[]) {
 		//modifier["thumb_fingertip"] = glm::rotate(glm::mat4(), thumb_angle, glm::fvec3(0.0, 0.0, 1.0));
 		//modifier["thumb_proximal_phalange"] = glm::rotate(glm::mat4(), thumb_angle, glm::fvec3(0.0, 0.0, 1.0));
 
-		modifier["middle_proximal_phalange"] = glm::rotate(glm::mat4(), one, glm::fvec3(0.0, 0.0, 1.0));
-		modifier["middle_intermediate_phalange"] = glm::rotate(glm::mat4(), one, glm::fvec3(0.0, 0.0, 1.0));
-		modifier["middle_distal_phalange"] = glm::rotate(glm::mat4(), one, glm::fvec3(0.0, 0.0, 1.0));
-		modifier["middle_fingertip"] = glm::rotate(glm::mat4(), one, glm::fvec3(0.0, 0.0, 1.0));
+		modifier["middle_proximal_phalange"] = glm::rotate(glm::mat4(), thumb_angle, glm::fvec3(0.0, 0.0, 1.0));
+		modifier["middle_intermediate_phalange"] = glm::rotate(glm::mat4(), thumb_angle, glm::fvec3(0.0, 0.0, 1.0));
+		modifier["middle_distal_phalange"] = glm::rotate(glm::mat4(), thumb_angle, glm::fvec3(0.0, 0.0, 1.0));
+		modifier["middle_fingertip"] = glm::rotate(glm::mat4(), thumb_angle, glm::fvec3(0.0, 0.0, 1.0));
 
-		modifier["ring_proximal_phalange"] = glm::rotate(glm::mat4(), one, glm::fvec3(0.0, 0.0, 1.0));
-		modifier["ring_intermediate_phalange"] = glm::rotate(glm::mat4(), one, glm::fvec3(0.0, 0.0, 1.0));
-		modifier["ring_distal_phalange"] = glm::rotate(glm::mat4(), one, glm::fvec3(0.0, 0.0, 1.0));
-		modifier["ring_fingertip"] = glm::rotate(glm::mat4(), one, glm::fvec3(0.0, 0.0, 1.0));
+		modifier["ring_proximal_phalange"] = glm::rotate(glm::mat4(), thumb_angle, glm::fvec3(0.0, 0.0, 1.0));
+		modifier["ring_intermediate_phalange"] = glm::rotate(glm::mat4(), thumb_angle, glm::fvec3(0.0, 0.0, 1.0));
+		modifier["ring_distal_phalange"] = glm::rotate(glm::mat4(), thumb_angle, glm::fvec3(0.0, 0.0, 1.0));
+		modifier["ring_fingertip"] = glm::rotate(glm::mat4(), thumb_angle, glm::fvec3(0.0, 0.0, 1.0));
 
-		modifier["pinky_proximal_phalange"] = glm::rotate(glm::mat4(), one, glm::fvec3(0.0, 0.0, 1.0));
-		modifier["pinky_intermediate_phalange"] = glm::rotate(glm::mat4(), one, glm::fvec3(0.0, 0.0, 1.0));
-		modifier["pinky_distal_phalange"] = glm::rotate(glm::mat4(), one, glm::fvec3(0.0, 0.0, 1.0));
-		modifier["pinky_fingertip"] = glm::rotate(glm::mat4(), one, glm::fvec3(0.0, 0.0, 1.0));*/
+		modifier["pinky_proximal_phalange"] = glm::rotate(glm::mat4(), thumb_angle, glm::fvec3(0.0, 0.0, 1.0));
+		modifier["pinky_intermediate_phalange"] = glm::rotate(glm::mat4(), thumb_angle, glm::fvec3(0.0, 0.0, 1.0));
+		modifier["pinky_distal_phalange"] = glm::rotate(glm::mat4(), thumb_angle, glm::fvec3(0.0, 0.0, 1.0));
+		modifier["pinky_fingertip"] = glm::rotate(glm::mat4(), thumb_angle, glm::fvec3(0.0, 0.0, 1.0));*/
 		
 
 		
