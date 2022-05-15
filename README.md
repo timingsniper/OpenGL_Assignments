@@ -8,3 +8,7 @@ Written by Percy Joonwoo Jang 张晙优
 
 Worked on making 7 Hand gestures! (Waving, Rabbit, Fist, 666, OK, Handgun, Railgun feat Misaka Mikoto)  Executables can be found in Hand/bin/x64/Debug.
 You can interact with mouse and arrow keys on keyboard to change POV.
+
+# Assignment 2: Still Hand (相机控制)
+First requirement was to achieve mouse&keyboard control of POV but that was done last time..
+The code here goes with the requirement of rotation with quaternion, but its smooth rotation was not achieved. Mouse and Keyboard control part of the code is commented out, this time with function to change to POV to the center of the hand (0,0,0) when long pressing Z key.
