@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\OpenGL_Assignments\HW3-Particles\HW3Src\Particles\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\OpenGL_Assignments\HW3-Particles\HW3Src\common\shader.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\OpenGL_Assignments\HW3-Particles\HW3Src\common\texture.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\OpenGL_Assignments\HW3-Particles\HW3Src\common\shader.hpp">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\OpenGL_Assignments\HW3-Particles\HW3Src\common\texture.hpp">
+      <Filter>common</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\OpenGL_Assignments\HW3-Particles\HW3Src\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\OpenGL_Assignments\HW3-Particles\HW3Src\Particles\Particle.fragmentshader">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="D:\OpenGL_Assignments\HW3-Particles\HW3Src\Particles\Particle.vertexshader">
+      <Filter>shaders</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{9AF8DEF1-B8F5-32BA-8F6B-2E91B4B11617}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common">
+      <UniqueIdentifier>{0F133BD3-5150-39DA-939D-E440A9B9E029}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shaders">
+      <UniqueIdentifier>{F8CF329B-A584-302E-99AC-58714A65D2DB}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

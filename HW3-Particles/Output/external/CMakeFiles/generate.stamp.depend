@@ -1,0 +1,6 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-3.23/Modules/CheckFunctionExists.cmake
+C:/Program Files/CMake/share/cmake-3.23/Modules/CheckIncludeFile.cmake
+C:/Program Files/CMake/share/cmake-3.23/Modules/CheckIncludeFileCXX.cmake
+C:/Program Files/CMake/share/cmake-3.23/Modules/CheckTypeSize.cmake
+D:/OpenGL_Assignments/HW3-Particles/HW3Src/external/CMakeLists.txt

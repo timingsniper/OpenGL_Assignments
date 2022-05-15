@@ -1,0 +1,10 @@
+^D:\OPENGL_ASSIGNMENTS\HW3-PARTICLES\OUTPUT\CMAKEFILES\6E0EEB7ED5B5E5610A76FDA3431BAE2F\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/OpenGL_Assignments/HW3-Particles/HW3Src -BD:/OpenGL_Assignments/HW3-Particles/Output --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/OpenGL_Assignments/HW3-Particles/Output/Particles.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

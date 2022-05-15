@@ -2,87 +2,79 @@
 D:\OpenGL_Assignments\Hand2\src\main.cpp(7,1): warning C4005: '_CRT_SECURE_NO_WARNINGS': 매크로 재정의
 D:\OpenGL_Assignments\Hand2\src\main.cpp : message : '_CRT_SECURE_NO_WARNINGS'의 이전 정의를 참조하십시오.
 D:\OpenGL_Assignments\Hand2\src\skeletal_mesh.h(361,22): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
-D:\OpenGL_Assignments\Hand2\src\main.cpp(396,33): warning C4244: '초기화 중': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\OpenGL_Assignments\Hand2\src\main.cpp(396,35): error C2065: 'passed_time': 선언되지 않은 식별자입니다.
+D:\OpenGL_Assignments\Hand2\src\main.cpp(399,33): error C2057: 상수 식이 필요합니다.
+D:\OpenGL_Assignments\Hand2\src\main.cpp(399,35): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+D:\OpenGL_Assignments\Hand2\src\main.cpp(399,105): error C2440: '초기화 중': 'glm::tmat4x4<float,glm::packed_highp>'에서 'int []'(으)로 변환할 수 없습니다.
+D:\OpenGL_Assignments\Hand2\src\main.cpp(399,33): message : 이 변환을 수행할 수 있는 사용 가능한 사용자 정의 변환 연산자가 없거나 연산자를 호출할 수 없습니다.
+D:\OpenGL_Assignments\Hand2\src\main.cpp(449,37): error C2065: 'passed_time': 선언되지 않은 식별자입니다.
 D:\OpenGL_Assignments\Hand2\src\main.cpp(451,27): warning C4244: '초기화 중': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
 D:\OpenGL_Assignments\Hand2\src\main.cpp(453,28): warning C4305: '초기화 중': 'double'에서 'float'(으)로 잘립니다.
-D:\OpenGL_Assignments\Hand2\src\main.cpp(600,60): warning C4267: '인수': 'size_t'에서 'GLsizei'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\utility(249,55): warning C4267: '초기화 중': 'size_t'에서 '_Ty2'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-          with
-          [
-              _Ty2=unsigned int
-          ]
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\xmemory(707): message : 컴파일되는 함수 템플릿 인스턴스화 'std::pair<const std::string,unsigned int>::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char>>,unsigned __int64,0>(std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char>>,unsigned __int64> &&) noexcept'에 대한 참조를 확인하세요.
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\xmemory(714): message : 컴파일되는 함수 템플릿 인스턴스화 'std::pair<const std::string,unsigned int>::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char>>,unsigned __int64,0>(std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char>>,unsigned __int64> &&) noexcept'에 대한 참조를 확인하세요.
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\xtree(811): message : 컴파일되는 함수 템플릿 인스턴스화 'void std::_Default_allocator_traits<_Alloc>::construct<_Ty,std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char>>,unsigned __int64>>(_Alloc &,_Objty *const ,std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char>>,unsigned __int64> &&)'에 대한 참조를 확인하세요.
-          with
-          [
-              _Alloc=std::allocator<std::_Tree_node<std::pair<const std::string,unsigned int>,std::_Default_allocator_traits<std::allocator<std::pair<const std::string,unsigned int>>>::void_pointer>>,
-              _Ty=std::pair<const std::string,unsigned int>,
-              _Objty=std::pair<const std::string,unsigned int>
-          ]
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\xtree(812): message : 컴파일되는 함수 템플릿 인스턴스화 'void std::_Default_allocator_traits<_Alloc>::construct<_Ty,std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char>>,unsigned __int64>>(_Alloc &,_Objty *const ,std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char>>,unsigned __int64> &&)'에 대한 참조를 확인하세요.
-          with
-          [
-              _Alloc=std::allocator<std::_Tree_node<std::pair<const std::string,unsigned int>,std::_Default_allocator_traits<std::allocator<std::pair<const std::string,unsigned int>>>::void_pointer>>,
-              _Ty=std::pair<const std::string,unsigned int>,
-              _Objty=std::pair<const std::string,unsigned int>
-          ]
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\xtree(1007): message : 컴파일되는 함수 템플릿 인스턴스화 'std::_Tree_temp_node<std::allocator<std::_Tree_node<std::pair<const std::string,unsigned int>,std::_Default_allocator_traits<_Alloc>::void_pointer>>>::_Tree_temp_node<_Ty>(_Alnode &,std::_Tree_node<std::pair<const std::string,unsigned int>,std::_Default_allocator_traits<_Alloc>::void_pointer> *,_Ty &&)'에 대한 참조를 확인하세요.
-          with
-          [
-              _Alloc=std::allocator<std::pair<const std::string,unsigned int>>,
-              _Ty=std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char>>,unsigned __int64>,
-              _Alnode=std::allocator<std::_Tree_node<std::pair<const std::string,unsigned int>,std::_Default_allocator_traits<std::allocator<std::pair<const std::string,unsigned int>>>::void_pointer>>
-          ]
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\xtree(1020): message : 컴파일되는 함수 템플릿 인스턴스화 'std::_Tree_temp_node<std::allocator<std::_Tree_node<std::pair<const std::string,unsigned int>,std::_Default_allocator_traits<_Alloc>::void_pointer>>>::_Tree_temp_node<_Ty>(_Alnode &,std::_Tree_node<std::pair<const std::string,unsigned int>,std::_Default_allocator_traits<_Alloc>::void_pointer> *,_Ty &&)'에 대한 참조를 확인하세요.
-          with
-          [
-              _Alloc=std::allocator<std::pair<const std::string,unsigned int>>,
-              _Ty=std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char>>,unsigned __int64>,
-              _Alnode=std::allocator<std::_Tree_node<std::pair<const std::string,unsigned int>,std::_Default_allocator_traits<std::allocator<std::pair<const std::string,unsigned int>>>::void_pointer>>
-          ]
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\xtree(1044): message : 컴파일되는 함수 템플릿 인스턴스화 'std::pair<std::_Tree_node<std::pair<const std::string,unsigned int>,std::_Default_allocator_traits<_Alloc>::void_pointer> *,bool> std::_Tree<std::_Tmap_traits<_Kty,_Ty,_Pr,_Alloc,false>>::_Emplace<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char>>,unsigned __int64>>(std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char>>,unsigned __int64> &&)'에 대한 참조를 확인하세요.
-          with
-          [
-              _Alloc=std::allocator<std::pair<const std::string,unsigned int>>,
-              _Kty=std::string,
-              _Ty=unsigned int,
-              _Pr=std::less<std::string>
-          ]
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\xtree(1045): message : 컴파일되는 함수 템플릿 인스턴스화 'std::pair<std::_Tree_node<std::pair<const std::string,unsigned int>,std::_Default_allocator_traits<_Alloc>::void_pointer> *,bool> std::_Tree<std::_Tmap_traits<_Kty,_Ty,_Pr,_Alloc,false>>::_Emplace<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char>>,unsigned __int64>>(std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char>>,unsigned __int64> &&)'에 대한 참조를 확인하세요.
-          with
-          [
-              _Alloc=std::allocator<std::pair<const std::string,unsigned int>>,
-              _Kty=std::string,
-              _Ty=unsigned int,
-              _Pr=std::less<std::string>
-          ]
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\map(165): message : 컴파일되는 함수 템플릿 인스턴스화 'std::pair<std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<const std::string,unsigned int>>>>,bool> std::_Tree<std::_Tmap_traits<_Kty,_Ty,_Pr,_Alloc,false>>::emplace<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char>>,unsigned __int64>>(std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char>>,unsigned __int64> &&)'에 대한 참조를 확인하세요.
-          with
-          [
-              _Kty=std::string,
-              _Ty=unsigned int,
-              _Pr=std::less<std::string>,
-              _Alloc=std::allocator<std::pair<const std::string,unsigned int>>
-          ]
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\map(165): message : 컴파일되는 함수 템플릿 인스턴스화 'std::pair<std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<const std::string,unsigned int>>>>,bool> std::_Tree<std::_Tmap_traits<_Kty,_Ty,_Pr,_Alloc,false>>::emplace<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char>>,unsigned __int64>>(std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char>>,unsigned __int64> &&)'에 대한 참조를 확인하세요.
-          with
-          [
-              _Kty=std::string,
-              _Ty=unsigned int,
-              _Pr=std::less<std::string>,
-              _Alloc=std::allocator<std::pair<const std::string,unsigned int>>
-          ]
-D:\OpenGL_Assignments\Hand2\src\skeletal_mesh.h(245): message : 컴파일되는 함수 템플릿 인스턴스화 'std::pair<std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<const std::string,unsigned int>>>>,bool> std::map<std::string,unsigned int,std::less<std::string>,std::allocator<std::pair<const std::string,unsigned int>>>::insert<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char>>,unsigned __int64>,0>(_Valty &&)'에 대한 참조를 확인하세요.
-          with
-          [
-              _Valty=std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char>>,unsigned __int64>
-          ]
-D:\OpenGL_Assignments\Hand2\src\skeletal_mesh.h(245): message : 컴파일되는 함수 템플릿 인스턴스화 'std::pair<std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<const std::string,unsigned int>>>>,bool> std::map<std::string,unsigned int,std::less<std::string>,std::allocator<std::pair<const std::string,unsigned int>>>::insert<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char>>,unsigned __int64>,0>(_Valty &&)'에 대한 참조를 확인하세요.
-          with
-          [
-              _Valty=std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char>>,unsigned __int64>
-          ]
-  Hand.vcxproj -> D:\OpenGL_Assignments\Hand2\bin\x64\Debug\Hand.exe
-  0개 파일이 복사되었습니다.
-  0개 파일이 복사되었습니다.
+D:\OpenGL_Assignments\Hand2\src\main.cpp(458,33): error C2057: 상수 식이 필요합니다.
+D:\OpenGL_Assignments\Hand2\src\main.cpp(458,35): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+D:\OpenGL_Assignments\Hand2\src\main.cpp(458,9): error C2374: 'modifier': 재정의. 여러 번 초기화했습니다.
+D:\OpenGL_Assignments\Hand2\src\main.cpp(399): message : 'modifier' 선언을 참조하십시오.
+D:\OpenGL_Assignments\Hand2\src\main.cpp(581,38): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+D:\OpenGL_Assignments\Hand2\src\main.cpp(581,9): error C2365: 'glfwGetFramebufferSize': 재정의: 이전 정의는 '함수'입니다.
+D:\OpenGL_Assignments\Hand2\include\GLFW\glfw3.h(2205): message : 'glfwGetFramebufferSize' 선언을 참조하십시오.
+D:\OpenGL_Assignments\Hand2\src\main.cpp(582,17): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+D:\OpenGL_Assignments\Hand2\src\main.cpp(582,9): error C2371: 'ratio': 재정의. 기본 형식이 다릅니다.
+D:\OpenGL_Assignments\Hand2\src\main.cpp(578): message : 'ratio' 선언을 참조하십시오.
+D:\OpenGL_Assignments\Hand2\src\main.cpp(584,22): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+D:\OpenGL_Assignments\Hand2\src\main.cpp(584,9): error C2365: 'glClearColor': 재정의: 이전 정의는 '함수'입니다.
+D:\OpenGL_Assignments\Hand2\include\GL\glew.h(860): message : 'glClearColor' 선언을 참조하십시오.
+D:\OpenGL_Assignments\Hand2\src\main.cpp(586,20): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+D:\OpenGL_Assignments\Hand2\src\main.cpp(586,9): error C2365: 'glViewport': 재정의: 이전 정의는 '함수'입니다.
+D:\OpenGL_Assignments\Hand2\include\GL\glew.h(1183): message : 'glViewport' 선언을 참조하십시오.
+D:\OpenGL_Assignments\Hand2\src\main.cpp(587,17): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+D:\OpenGL_Assignments\Hand2\src\main.cpp(587,9): error C2365: 'glClear': 재정의: 이전 정의는 '함수'입니다.
+D:\OpenGL_Assignments\Hand2\include\GL\glew.h(858): message : 'glClear' 선언을 참조하십시오.
+D:\OpenGL_Assignments\Hand2\src\main.cpp(589,29): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+D:\OpenGL_Assignments\Hand2\src\main.cpp(589,9): error C2373: '__glewUseProgram': 재정의. 형식 한정자가 다릅니다.
+D:\OpenGL_Assignments\Hand2\include\GL\glew.h(20034): message : '__glewUseProgram' 선언을 참조하십시오.
+D:\OpenGL_Assignments\Hand2\src\main.cpp(589,22): error C2065: 'program': 선언되지 않은 식별자입니다.
+D:\OpenGL_Assignments\Hand2\src\main.cpp(591,45): error C2065: 'ModelMatrix': 선언되지 않은 식별자입니다.
+D:\OpenGL_Assignments\Hand2\src\main.cpp(593,48): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+D:\OpenGL_Assignments\Hand2\src\main.cpp(593,9): error C2373: '__glewUniformMatrix4fv': 재정의. 형식 한정자가 다릅니다.
+D:\OpenGL_Assignments\Hand2\include\GL\glew.h(20033): message : '__glewUniformMatrix4fv' 선언을 참조하십시오.
+D:\OpenGL_Assignments\Hand2\src\main.cpp(593,49): error C2065: 'program': 선언되지 않은 식별자입니다.
+D:\OpenGL_Assignments\Hand2\src\main.cpp(595,41): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+D:\OpenGL_Assignments\Hand2\src\main.cpp(595,9): error C2373: '__glewUniform1i': 재정의. 형식 한정자가 다릅니다.
+D:\OpenGL_Assignments\Hand2\include\GL\glew.h(20017): message : '__glewUniform1i' 선언을 참조하십시오.
+D:\OpenGL_Assignments\Hand2\src\main.cpp(595,42): error C2065: 'program': 선언되지 않은 식별자입니다.
+D:\OpenGL_Assignments\Hand2\src\main.cpp(597,11): error C3927: '->': 후행 반환 형식은 비함수 선언자 뒤에 올 수 없습니다.
+D:\OpenGL_Assignments\Hand2\src\main.cpp(597,11): error C3484: 구문 오류: 반환 형식 앞에 '->'가 필요합니다.
+D:\OpenGL_Assignments\Hand2\src\main.cpp(597,12): error C3613: '->' 후 반환 형식이 없습니다('int'로 간주됨).
+D:\OpenGL_Assignments\Hand2\src\main.cpp(597,32): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+D:\OpenGL_Assignments\Hand2\src\main.cpp(597,12): error C2146: 구문 오류: ';'이(가) 'getSkeletonTransform' 식별자 앞에 없습니다.
+D:\OpenGL_Assignments\Hand2\src\main.cpp(598,9): error C2059: 구문 오류: 'if'
+D:\OpenGL_Assignments\Hand2\src\main.cpp(601,11): error C3927: '->': 후행 반환 형식은 비함수 선언자 뒤에 올 수 없습니다.
+D:\OpenGL_Assignments\Hand2\src\main.cpp(601,11): error C3484: 구문 오류: 반환 형식 앞에 '->'가 필요합니다.
+D:\OpenGL_Assignments\Hand2\src\main.cpp(601,12): error C3613: '->' 후 반환 형식이 없습니다('int'로 간주됨).
+D:\OpenGL_Assignments\Hand2\src\main.cpp(601,18): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+D:\OpenGL_Assignments\Hand2\src\main.cpp(601,9): error C2086: 'int sr': 재정의
+D:\OpenGL_Assignments\Hand2\src\main.cpp(597): message : 'sr' 선언을 참조하십시오.
+D:\OpenGL_Assignments\Hand2\src\main.cpp(601,12): error C2146: 구문 오류: ';'이(가) 'render' 식별자 앞에 없습니다.
+D:\OpenGL_Assignments\Hand2\src\main.cpp(603,31): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+D:\OpenGL_Assignments\Hand2\src\main.cpp(603,9): error C2365: 'glfwSwapBuffers': 재정의: 이전 정의는 '함수'입니다.
+D:\OpenGL_Assignments\Hand2\include\GLFW\glfw3.h(3896): message : 'glfwSwapBuffers' 선언을 참조하십시오.
+D:\OpenGL_Assignments\Hand2\src\main.cpp(604,25): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+D:\OpenGL_Assignments\Hand2\src\main.cpp(604,25): error C2556: 'int glfwPollEvents(void)': 오버로드된 함수가 'void glfwPollEvents(void)'과(와) 반환 형식만 다릅니다.
+D:\OpenGL_Assignments\Hand2\include\GLFW\glfw3.h(2761): message : 'glfwPollEvents' 선언을 참조하십시오.
+D:\OpenGL_Assignments\Hand2\src\main.cpp(604,9): error C2371: 'glfwPollEvents': 재정의. 기본 형식이 다릅니다.
+D:\OpenGL_Assignments\Hand2\include\GLFW\glfw3.h(2761): message : 'glfwPollEvents' 선언을 참조하십시오.
+D:\OpenGL_Assignments\Hand2\src\main.cpp(605,5): error C2059: 구문 오류: '}'
+D:\OpenGL_Assignments\Hand2\src\main.cpp(605,5): error C2143: 구문 오류: ';'이(가) '}' 앞에 없습니다.
+D:\OpenGL_Assignments\Hand2\src\main.cpp(609,29): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+D:\OpenGL_Assignments\Hand2\src\main.cpp(609,5): error C2365: 'glfwDestroyWindow': 재정의: 이전 정의는 '함수'입니다.
+D:\OpenGL_Assignments\Hand2\include\GLFW\glfw3.h(1863): message : 'glfwDestroyWindow' 선언을 참조하십시오.
+D:\OpenGL_Assignments\Hand2\src\main.cpp(611,20): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+D:\OpenGL_Assignments\Hand2\src\main.cpp(611,20): error C2556: 'int glfwTerminate(void)': 오버로드된 함수가 'void glfwTerminate(void)'과(와) 반환 형식만 다릅니다.
+D:\OpenGL_Assignments\Hand2\include\GLFW\glfw3.h(1275): message : 'glfwTerminate' 선언을 참조하십시오.
+D:\OpenGL_Assignments\Hand2\src\main.cpp(611,5): error C2371: 'glfwTerminate': 재정의. 기본 형식이 다릅니다.
+D:\OpenGL_Assignments\Hand2\include\GLFW\glfw3.h(1275): message : 'glfwTerminate' 선언을 참조하십시오.
+D:\OpenGL_Assignments\Hand2\src\main.cpp(612,10): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+D:\OpenGL_Assignments\Hand2\src\main.cpp(612,5): error C2365: 'exit': 재정의: 이전 정의는 '함수'입니다.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdlib.h(52): message : 'exit' 선언을 참조하십시오.
+D:\OpenGL_Assignments\Hand2\src\main.cpp(613,1): error C2059: 구문 오류: '}'
+D:\OpenGL_Assignments\Hand2\src\main.cpp(613,1): error C2143: 구문 오류: ';'이(가) '}' 앞에 없습니다.

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <ProjectOutputs>
+    <ProjectOutput>
+      <FullPath>D:\OpenGL_Assignments\HW3-Particles\Output\x64\Debug\ZERO_CHECK</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>D:\OpenGL_Assignments\HW3-Particles\Output\Debug\Particles.exe</FullPath>
+    </ProjectOutput>
+  </ProjectOutputs>
+  <ContentFiles />
+  <SatelliteDlls />
+  <NonRecipeFileRefs />
+</Project>

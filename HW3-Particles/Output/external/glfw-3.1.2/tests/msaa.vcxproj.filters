@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\OpenGL_Assignments\HW3-Particles\HW3Src\external\glfw-3.1.2\tests\msaa.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\OpenGL_Assignments\HW3-Particles\HW3Src\external\glfw-3.1.2\deps\getopt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\OpenGL_Assignments\HW3-Particles\HW3Src\external\glfw-3.1.2\deps\getopt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\OpenGL_Assignments\HW3-Particles\HW3Src\external\glfw-3.1.2\tests\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{52C169BA-65DF-39CD-94D3-DB22F677552D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{9AF8DEF1-B8F5-32BA-8F6B-2E91B4B11617}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

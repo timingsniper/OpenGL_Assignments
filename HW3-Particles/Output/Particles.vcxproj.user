@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LocalDebuggerEnvironment></LocalDebuggerEnvironment>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+    <LocalDebuggerCommand>D:\OpenGL_Assignments\HW3-Particles\Output\Debug\Particles.exe</LocalDebuggerCommand>
+    <LocalDebuggerCommandArguments></LocalDebuggerCommandArguments>
+    <LocalDebuggerWorkingDirectory>D:/OpenGL_Assignments/HW3-Particles/HW3Src/Particles/</LocalDebuggerWorkingDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LocalDebuggerEnvironment></LocalDebuggerEnvironment>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+    <LocalDebuggerCommand>D:\OpenGL_Assignments\HW3-Particles\Output\Release\Particles.exe</LocalDebuggerCommand>
+    <LocalDebuggerCommandArguments></LocalDebuggerCommandArguments>
+    <LocalDebuggerWorkingDirectory>D:/OpenGL_Assignments/HW3-Particles/HW3Src/Particles/</LocalDebuggerWorkingDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <LocalDebuggerEnvironment></LocalDebuggerEnvironment>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+    <LocalDebuggerCommand>D:\OpenGL_Assignments\HW3-Particles\Output\MinSizeRel\Particles.exe</LocalDebuggerCommand>
+    <LocalDebuggerCommandArguments></LocalDebuggerCommandArguments>
+    <LocalDebuggerWorkingDirectory>D:/OpenGL_Assignments/HW3-Particles/HW3Src/Particles/</LocalDebuggerWorkingDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <LocalDebuggerEnvironment></LocalDebuggerEnvironment>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+    <LocalDebuggerCommand>D:\OpenGL_Assignments\HW3-Particles\Output\RelWithDebInfo\Particles.exe</LocalDebuggerCommand>
+    <LocalDebuggerCommandArguments></LocalDebuggerCommandArguments>
+    <LocalDebuggerWorkingDirectory>D:/OpenGL_Assignments/HW3-Particles/HW3Src/Particles/</LocalDebuggerWorkingDirectory>
+  </PropertyGroup>
+
+</Project>
